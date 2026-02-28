@@ -1,0 +1,85 @@
+/* Skip link */
+.skip-link {
+position: absolute;
+left: -999px;
+background: black;
+color: white;
+padding: 10px;
+text-decoration: none;
+}
+
+.skip-link:focus {
+left: 10px;
+top: 10px;
+}
+
+/* Navigation */
+.navbar ul {
+display: flex;
+justify-content: center;
+list-style: none;
+background-color: #333;
+padding: 10px;
+margin: 0;
+}
+
+.navbar a {
+color: white;
+text-decoration: none;
+padding: 10px 20px;
+transition: background 0.3s ease;
+}
+
+.navbar a:hover {
+background-color: #555;
+border-radius: 5px;
+}
+
+/* Grid layout */
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+padding: 20px;
+}
+
+/* Flex gallery */
+.flex-gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+padding: 20px;
+}
+
+/* Images box model */
+img {
+border: 3px solid #333;
+padding: 10px;
+border-radius: 10px;
+max-width: 100%;
+}
+
+/* nth-child */
+.flex-gallery img:nth-child(even) {
+border-radius: 50%;
+}
+
+/* General styling */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+}
+
+h1 {
+text-align: center;
+margin-top: 20px;
+}
+
+footer {
+text-align: center;
+padding: 10px;
+background: #333;
+color: white;
+margin-top: 20px;
+}
